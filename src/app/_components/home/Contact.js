@@ -3,7 +3,7 @@ import React from "react";
 export default function Contact() {
   return (
     <>
-      <div className="container mx-auto flex  items-center flex-col md:flex-row bg-gray-100 p-10 min-h-screen">
+      <div className="container mx-auto flex  items-center flex-col md:flex-row bg-gray-100 p-10 ">
         <div className="md:w-1/2 mb-10 md:mb-0">
           <div className="text-4xl font-bold text-primaryBlue mb-4">Contact Us</div>
           <p className="text-gray mb-8">
@@ -25,7 +25,7 @@ export default function Contact() {
             VBC. Leave your complaints and suggestions in the form.
           </p>
         </div>
-        <div className="md:w-1/2 bg-white p-6 rounded-xl shadow-md">
+        <div className="md:w-1/2 w-full bg-white p-6 rounded-xl shadow-md">
           <form>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <input
@@ -43,12 +43,12 @@ export default function Contact() {
               <input
                 type="email"
                 placeholder="Your Email"
-                className="w-full p-3 border border-stone-400 rounded-3xl focus:outline-none"
+                className="w-full p-3 border  border-stone-400 rounded-3xl focus:outline-none"
               />
             </div>
             <div className="mt-4">
               <div className="flex">
-                <select className="p-3 border  border-stone-400 rounded-l-3xl focus:outline-none">
+                <select className="p-3 border-l border-t border-b  border-stone-400 rounded-l-3xl focus:outline-none">
                   <option>+92</option>
                 </select>
                 <input

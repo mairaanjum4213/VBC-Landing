@@ -8,7 +8,7 @@ export default function MeetingSection() {
     <>
     <div className="container mx-auto">
         <div>
-            <div className="text-primaryBlue text-center text-xl md:text-4xl font-bold">Schedule Meetings and Events on the go!</div>
+            <div className="text-primaryBlue px-5  md:text-center text-xl md:text-4xl font-bold">Schedule Meetings and Events on the go!</div>
             <div className='text-gray text-center mx-auto w-[80%] text-md md:text-lg mt-5'>Schedule appointments, meetings, and events with participant invites via email or contacts list. Receive notifications for contact updates, card shares, event reminders, and instant alerts for networking opportunities.</div>
         </div>
 

@@ -9,7 +9,7 @@ import { FaLinkedin } from "react-icons/fa";
 export default function Footer() {
   return (
     <>
-      <footer className="container mx-auto">
+      <footer className="container mx-auto pt-10">
         <div className=" border-stone-400 border-b border-t my-5 px-5 pt-5 pb-10">
           <p className="text-primaryBlue text-4xl font-bold my-5">VBC</p>
           <div className="flex md:flex-row gap-5 flex-col text-footerGrey font-semibold">

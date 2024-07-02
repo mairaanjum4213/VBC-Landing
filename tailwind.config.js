@@ -4,8 +4,6 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
- 
-    // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -21,7 +19,10 @@ module.exports = {
         footerGrey: '#667799',
         mediumBlue: '#3C62B0',
         primaryLightBlue: '#A5B8DE',
-        bgGray: "#F8FAFF"
+        bgGray: "#F8FAFF",
+        marqueText:'#1C2F56',
+        marque:'#1F76F31D',
+        marqueBg:"#1F76F3"
       
       },
       animation: {

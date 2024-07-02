@@ -2,12 +2,16 @@ import React from "react";
 import Image from "next/image";
 import CardExchange from "../../../../public/assets/images/CardExchange.png";
 
-export default function header() {
+
+export default function Header() {
+
+  
+  
   return (
     <>
 
     <div className="container mx-auto p-5">
-    <div className="flex lg:flex-row flex-col justify-center items-center">
+    <div className="flex lg:flex-row flex-col gap-5 justify-center items-center">
         <div className="md:w-[40%] w-full text-center lg:text-left">
           <div className="font-bold text-xl md:text-4xl text-primaryBlue">
             Create Business Cards Instantly and Seamlessly
@@ -19,7 +23,13 @@ export default function header() {
           </div>
         </div>
 
-        <div className="md:w-[60%] w-full text-center lg:text-left">SASA</div>
+        <div className="md:w-[60%] w-full text-center rounded-lg bg-white shadow-md lg:text-left BG-WHITE">
+
+<p className="text-center text-xl font-bold my-2"> 
+ 1.  Select Your Tempelate
+</p>
+
+        </div>
       </div>
 
       <div className="flex lg:flex-row flex-col justify-center items-center my-10">
