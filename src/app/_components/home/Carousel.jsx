@@ -9,7 +9,9 @@ export default function Carousel() {
     <>
    <div className='w-full'>
 
-<div className='w-'>
+<div className='md:w-24 flex flex-col'>
+
+    <p></p>
 
 </div>
 </div>
