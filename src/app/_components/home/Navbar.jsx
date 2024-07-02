@@ -33,7 +33,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray focus:outline-none"
+              className="text-white focus:outline-none"
             >
               <svg
                 className="w-6 h-6"
@@ -62,17 +62,29 @@ const Navbar = () => {
           </div>
           <div className="hidden md:flex md:items-center gap-1 md:w-auto">
             {navLinks.map((link) => (
-              <a key={link.id} href={link.url} className="block mt-4 md:inline-block md:mt-0 font-semibold text-gray mr-4">{link.title}</a>
+              <a key={link.id} href={link.url} className="block mt-4 md:inline-block md:mt-0 font-semibold text-white mr-4">{link.title}</a>
             ))}
+
+<div className='border-l border-white px-5  '>
+  <button className='text-white border-white border px-5 py-2 rounded-full'>
+    Contact Support
+  </button>
+</div>
           </div>
+         
         </div>
         {/* Mobile menu */}
         {isOpen && (
           <div className="md:hidden bg-primaryBlue p-5">
             {navLinks.map((link) => (
-              <a key={link.id} href={link.url} className="block mt-4 text-gray font-semibold mr-4">{link.title}</a>
+              <a key={link.id} href={link.url} className="block mt-4 text-white font-semibold mr-4">{link.title}</a>
             ))}
+
+<button className='text-white border-white border px-5 py-2 my-5 rounded-lg'>
+    Contact Support
+  </button>
           </div>
+          
         )}
       </nav>
     </>
