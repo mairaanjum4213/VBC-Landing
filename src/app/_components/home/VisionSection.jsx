@@ -4,7 +4,7 @@ import BackgroundVision from "../../../../public/assets/images/BackgorundVision.
 import HeroBackground from "../../../../public/assets/images/HeroBackground.png";
 import googlePlay from "../../../../public/assets/images/Google Play.png";
 import appStore from "../../../../public/assets/images/AppStore.png";
-import Contact from "../../_components/home/Contact"
+import Contact from "./Contact.jsx"
 import Marquee from "./Marquee";
 export default function VisionSection() {
   return (
@@ -20,13 +20,13 @@ export default function VisionSection() {
             <div className="w-full lg:w-[50%] text-xl lg:text-4xl font-bold text-center md:text-left">
               Our Vision: Revolutionizing Professional Networking
             </div>
-            <div className="w-full lg:w-[40%]  md:mt-0 text-center md:text-left">
+            <div className="w-full lg:w-[40%]  md:mt-0 text-center md:text-base text-[.8rem] md:text-left">
               Our vision is to revolutionize professional networking by
               providing a seamless, efficient, and innovative platform for
               creating, sharing, and managing virtual business cards.
               <br />
               <br />
-              <p className="md-block hidden">   Through integrated scheduling, real-time updates, and offline
+              <p className="">   Through integrated scheduling, real-time updates, and offline
                 connectivity, we aim to enhance the way professionals connect,
                 collaborate, and grow their networks, anytime and anywhere. We
                 strive to empower users with intuitive tools that foster

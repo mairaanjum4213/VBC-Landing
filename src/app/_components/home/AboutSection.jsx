@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import CardExchange from "../../../../public/assets/images/CardExchange.png";
-import Carousel from './Carousel.jsx'
+import Tempelate from './Tempelate.jsx'
 export default function Header() {
   return (
     <>
-      <div className="container mx-auto p-5">
+      <div className="container mx-auto p-5  lg:mt-20 lg:mb-5 my-3">
         <div className="flex lg:flex-row flex-col gap-5 justify-center items-center">
           <div className="md:w-[40%] w-full text-center lg:text-left">
             <div className="font-bold text-xl md:text-4xl text-primaryBlue">
@@ -17,12 +17,19 @@ export default function Header() {
               information. You can also link your socials and you’re good to go!
             </div>
           </div>
-          <div className="md:w-[60%] w-full text-center rounded-lg bg-white shadow-md lg:text-left BG-WHITE">
-            <p className="text-center text-xl font-bold my-2">
+          <div className="relative md:w-[60%] w-full  text-center rounded-lg bg-white shadow-md lg:text-left py-10">
+            <p className="text-center text-xl font-bold mb-5">
               1.  Select Your Tempelate
             </p>
-
-            <Carousel/>
+            <Tempelate/>
+          <div className="lg:block hidden">  
+            <div className=" absolute lg:flex flex-row gap-1 left-[45%] -bottom-[2rem] bg-orange">
+<div className='border-primaryBlue border h-[10px] w-[10px] rounded-full'> </div>
+<div className='bg-primaryBlue h-[10px] w-[10px] rounded-full'> </div>
+<div className='bg-primaryBlue h-[10px] w-[10px] rounded-full'> </div>
+<div className='bg-primaryBlue h-[10px] w-[10px] rounded-full'> </div>
+<div className='bg-primaryBlue h-[10px] w-[10px] rounded-full'> </div>
+            </div></div>
           </div>
         </div>
         <div className="flex lg:flex-row flex-col justify-center items-center my-10">
